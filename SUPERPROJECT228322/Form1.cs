@@ -136,9 +136,9 @@ namespace SUPERPROJECT228322
                         //int appID = 570;
                         string api_key;
                         if (m % 2 != 0)
-                            api_key = "teJlN3fVPVf0VHclNqnKqv0LBIM";
+                            api_key = "teJlN3fVPVf0VHclNqnKqv0M";
                         else
-                            api_key = "VbL2nE5MXl-eh6UaArhJgkZwDIQ";
+                            api_key = "VbL2nE5MXl-eh6UaArhJgkZQ";
                         string itemName = hash;
                         string jsonURL = string.Format(url, itemName, api_key);
                         double b;
@@ -411,10 +411,6 @@ namespace SUPERPROJECT228322
             }
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void button7_Click(object sender, EventArgs e)
         {
@@ -440,19 +436,6 @@ namespace SUPERPROJECT228322
             }
         }
 
-        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
 
         private void button9_Click(object sender, EventArgs e)
         {
